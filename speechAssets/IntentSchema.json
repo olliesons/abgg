@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "OneshotBoardGameTrackerIntent",
+      "slots": [
+        {
+          "name": "game",
+          "type": "LIST_OF_GAMES"
+        }
+      ]
+    },
+	{
+      "intent": "DialogBoardGameTrackerIntent",
+      "slots": [
+        {
+          "name": "game",
+          "type": "LIST_OF_GAMES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
